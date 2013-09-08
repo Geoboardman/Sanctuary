@@ -1,0 +1,15 @@
+-main ApplicationMain 
+-lib openfl
+-lib openfl-native
+-lib flixel
+-lib openfl-native
+-cp source
+-D no_console=1
+-D tools=1
+-D openfl_ver=1.0.8
+-D openfl
+-D windows
+-D desktop
+-cp export/windows/cpp/haxe
+-cpp export/windows/cpp/obj
+--macro allowPackage("flash")
