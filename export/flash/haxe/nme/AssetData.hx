@@ -92,26 +92,88 @@ class AssetData {
 			type.set ("assets/data/vis/bounds.png", Reflect.field (AssetType, "image".toUpperCase ()));
 			className.set ("assets/EntryMap.tmx", nme.NME_assets_entrymap_tmx);
 			type.set ("assets/EntryMap.tmx", Reflect.field (AssetType, "text".toUpperCase ()));
-			className.set ("assets/EntryMap.txt", nme.NME_assets_entrymap_txt);
-			type.set ("assets/EntryMap.txt", Reflect.field (AssetType, "text".toUpperCase ()));
-			className.set ("assets/EntryMap2.tmx", nme.NME_assets_entrymap2_tmx);
-			type.set ("assets/EntryMap2.tmx", Reflect.field (AssetType, "text".toUpperCase ()));
-			className.set ("assets/EntryMap3.tmx", nme.NME_assets_entrymap3_tmx);
-			type.set ("assets/EntryMap3.tmx", Reflect.field (AssetType, "text".toUpperCase ()));
-			className.set ("assets/EntryMap3.txt", nme.NME_assets_entrymap3_txt);
-			type.set ("assets/EntryMap3.txt", Reflect.field (AssetType, "text".toUpperCase ()));
+			className.set ("assets/Forest.tmx", nme.NME_assets_forest_tmx);
+			type.set ("assets/Forest.tmx", Reflect.field (AssetType, "text".toUpperCase ()));
 			className.set ("assets/ForestTiles.png", nme.NME_assets_foresttiles_png);
 			type.set ("assets/ForestTiles.png", Reflect.field (AssetType, "image".toUpperCase ()));
 			className.set ("assets/HaxeFlixel.svg", nme.NME_assets_haxeflixel_svg);
 			type.set ("assets/HaxeFlixel.svg", Reflect.field (AssetType, "text".toUpperCase ()));
+			className.set ("assets/invTile.png", nme.NME_assets_invtile_png);
+			type.set ("assets/invTile.png", Reflect.field (AssetType, "image".toUpperCase ()));
+			className.set ("assets/mountain_landscape.png", nme.NME_assets_mountain_landscape_png);
+			type.set ("assets/mountain_landscape.png", Reflect.field (AssetType, "image".toUpperCase ()));
 			className.set ("assets/player.png", nme.NME_assets_player_png);
 			type.set ("assets/player.png", Reflect.field (AssetType, "image".toUpperCase ()));
-			className.set ("assets/TestMap.csv", nme.NME_assets_testmap_csv);
-			type.set ("assets/TestMap.csv", Reflect.field (AssetType, "text".toUpperCase ()));
-			className.set ("assets/TestMap.txt", nme.NME_assets_testmap_txt);
-			type.set ("assets/TestMap.txt", Reflect.field (AssetType, "text".toUpperCase ()));
-			className.set ("assets/tmxToFlixel.exe", nme.NME_assets_tmxtoflixel_exe);
-			type.set ("assets/tmxToFlixel.exe", Reflect.field (AssetType, "binary".toUpperCase ()));
+			className.set ("assets/testingMap.tmx", nme.NME_assets_testingmap_tmx);
+			type.set ("assets/testingMap.tmx", Reflect.field (AssetType, "text".toUpperCase ()));
+			className.set ("assets/TileSets/BENCH.bmp", nme.NME_assets_tilesets_bench_bmp);
+			type.set ("assets/TileSets/BENCH.bmp", Reflect.field (AssetType, "binary".toUpperCase ()));
+			className.set ("assets/TileSets/BENCH.GIF", nme.NME_assets_tilesets_bench_gif);
+			type.set ("assets/TileSets/BENCH.GIF", Reflect.field (AssetType, "image".toUpperCase ()));
+			className.set ("assets/TileSets/CLIFFVEG.bmp", nme.NME_assets_tilesets_cliffveg_bmp);
+			type.set ("assets/TileSets/CLIFFVEG.bmp", Reflect.field (AssetType, "binary".toUpperCase ()));
+			className.set ("assets/TileSets/CLIFSHD.bmp", nme.NME_assets_tilesets_clifshd_bmp);
+			type.set ("assets/TileSets/CLIFSHD.bmp", Reflect.field (AssetType, "binary".toUpperCase ()));
+			className.set ("assets/TileSets/CLIFVEG2.bmp", nme.NME_assets_tilesets_clifveg2_bmp);
+			type.set ("assets/TileSets/CLIFVEG2.bmp", Reflect.field (AssetType, "binary".toUpperCase ()));
+			className.set ("assets/TileSets/ENCINT.GIF", nme.NME_assets_tilesets_encint_gif);
+			type.set ("assets/TileSets/ENCINT.GIF", Reflect.field (AssetType, "image".toUpperCase ()));
+			className.set ("assets/TileSets/FENCDAM.bmp", nme.NME_assets_tilesets_fencdam_bmp);
+			type.set ("assets/TileSets/FENCDAM.bmp", Reflect.field (AssetType, "binary".toUpperCase ()));
+			className.set ("assets/TileSets/FENCE.bmp", nme.NME_assets_tilesets_fence_bmp);
+			type.set ("assets/TileSets/FENCE.bmp", Reflect.field (AssetType, "binary".toUpperCase ()));
+			className.set ("assets/TileSets/FENCSHD1.bmp", nme.NME_assets_tilesets_fencshd1_bmp);
+			type.set ("assets/TileSets/FENCSHD1.bmp", Reflect.field (AssetType, "binary".toUpperCase ()));
+			className.set ("assets/TileSets/FENCSHD2.bmp", nme.NME_assets_tilesets_fencshd2_bmp);
+			type.set ("assets/TileSets/FENCSHD2.bmp", Reflect.field (AssetType, "binary".toUpperCase ()));
+			className.set ("assets/TileSets/GRS2ROC.bmp", nme.NME_assets_tilesets_grs2roc_bmp);
+			type.set ("assets/TileSets/GRS2ROC.bmp", Reflect.field (AssetType, "binary".toUpperCase ()));
+			className.set ("assets/TileSets/INVEN3.TIF", nme.NME_assets_tilesets_inven3_tif);
+			type.set ("assets/TileSets/INVEN3.TIF", Reflect.field (AssetType, "binary".toUpperCase ()));
+			className.set ("assets/TileSets/KITCHEN.GIF", nme.NME_assets_tilesets_kitchen_gif);
+			type.set ("assets/TileSets/KITCHEN.GIF", Reflect.field (AssetType, "image".toUpperCase ()));
+			className.set ("assets/TileSets/PAVE.bmp", nme.NME_assets_tilesets_pave_bmp);
+			type.set ("assets/TileSets/PAVE.bmp", Reflect.field (AssetType, "binary".toUpperCase ()));
+			className.set ("assets/TileSets/RUIN.bmp", nme.NME_assets_tilesets_ruin_bmp);
+			type.set ("assets/TileSets/RUIN.bmp", Reflect.field (AssetType, "binary".toUpperCase ()));
+			className.set ("assets/TileSets/TABLE1.GIF", nme.NME_assets_tilesets_table1_gif);
+			type.set ("assets/TileSets/TABLE1.GIF", Reflect.field (AssetType, "image".toUpperCase ()));
+			className.set ("assets/TileSets/TEST5B.bmp", nme.NME_assets_tilesets_test5b_bmp);
+			type.set ("assets/TileSets/TEST5B.bmp", Reflect.field (AssetType, "binary".toUpperCase ()));
+			className.set ("assets/TileSets/TEST6.bmp", nme.NME_assets_tilesets_test6_bmp);
+			type.set ("assets/TileSets/TEST6.bmp", Reflect.field (AssetType, "binary".toUpperCase ()));
+			className.set ("assets/TileSets/TEST7B.bmp", nme.NME_assets_tilesets_test7b_bmp);
+			type.set ("assets/TileSets/TEST7B.bmp", Reflect.field (AssetType, "binary".toUpperCase ()));
+			className.set ("assets/TileSets/TEST7B.png", nme.NME_assets_tilesets_test7b_png);
+			type.set ("assets/TileSets/TEST7B.png", Reflect.field (AssetType, "image".toUpperCase ()));
+			className.set ("assets/TileSets/TOWNBOT.bmp", nme.NME_assets_tilesets_townbot_bmp);
+			type.set ("assets/TileSets/TOWNBOT.bmp", Reflect.field (AssetType, "binary".toUpperCase ()));
+			className.set ("assets/TileSets/TOWNBOT2.bmp", nme.NME_assets_tilesets_townbot2_bmp);
+			type.set ("assets/TileSets/TOWNBOT2.bmp", Reflect.field (AssetType, "binary".toUpperCase ()));
+			className.set ("assets/TileSets/TOWNDOOR.bmp", nme.NME_assets_tilesets_towndoor_bmp);
+			type.set ("assets/TileSets/TOWNDOOR.bmp", Reflect.field (AssetType, "binary".toUpperCase ()));
+			className.set ("assets/TileSets/TOWNJNT.bmp", nme.NME_assets_tilesets_townjnt_bmp);
+			type.set ("assets/TileSets/TOWNJNT.bmp", Reflect.field (AssetType, "binary".toUpperCase ()));
+			className.set ("assets/TileSets/TOWNJNT2.bmp", nme.NME_assets_tilesets_townjnt2_bmp);
+			type.set ("assets/TileSets/TOWNJNT2.bmp", Reflect.field (AssetType, "binary".toUpperCase ()));
+			className.set ("assets/TileSets/TOWNSHD1.bmp", nme.NME_assets_tilesets_townshd1_bmp);
+			type.set ("assets/TileSets/TOWNSHD1.bmp", Reflect.field (AssetType, "binary".toUpperCase ()));
+			className.set ("assets/TileSets/TOWNTOP.bmp", nme.NME_assets_tilesets_towntop_bmp);
+			type.set ("assets/TileSets/TOWNTOP.bmp", Reflect.field (AssetType, "binary".toUpperCase ()));
+			className.set ("assets/TileSets/TOWNWIN.bmp", nme.NME_assets_tilesets_townwin_bmp);
+			type.set ("assets/TileSets/TOWNWIN.bmp", Reflect.field (AssetType, "binary".toUpperCase ()));
+			className.set ("assets/TileSets/TREE.GIF", nme.NME_assets_tilesets_tree_gif);
+			type.set ("assets/TileSets/TREE.GIF", Reflect.field (AssetType, "image".toUpperCase ()));
+			className.set ("assets/TileSets/VILDAM.bmp", nme.NME_assets_tilesets_vildam_bmp);
+			type.set ("assets/TileSets/VILDAM.bmp", Reflect.field (AssetType, "binary".toUpperCase ()));
+			className.set ("assets/TileSets/VILFLR.bmp", nme.NME_assets_tilesets_vilflr_bmp);
+			type.set ("assets/TileSets/VILFLR.bmp", Reflect.field (AssetType, "binary".toUpperCase ()));
+			className.set ("assets/TileSets/VILINT.bmp", nme.NME_assets_tilesets_vilint_bmp);
+			type.set ("assets/TileSets/VILINT.bmp", Reflect.field (AssetType, "binary".toUpperCase ()));
+			className.set ("assets/TileSets/VILSHD.bmp", nme.NME_assets_tilesets_vilshd_bmp);
+			type.set ("assets/TileSets/VILSHD.bmp", Reflect.field (AssetType, "binary".toUpperCase ()));
+			className.set ("assets/TileSets/_BACKUP_.bmp", nme.NME_assets_tilesets__backup__bmp);
+			type.set ("assets/TileSets/_BACKUP_.bmp", Reflect.field (AssetType, "binary".toUpperCase ()));
 			
 			
 			initialized = true;
@@ -161,13 +223,44 @@ class NME_assets_data_vcr_step_png extends flash.display.BitmapData { public fun
 class NME_assets_data_vcr_stop_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class NME_assets_data_vis_bounds_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class NME_assets_entrymap_tmx extends flash.utils.ByteArray { }
-class NME_assets_entrymap_txt extends flash.utils.ByteArray { }
-class NME_assets_entrymap2_tmx extends flash.utils.ByteArray { }
-class NME_assets_entrymap3_tmx extends flash.utils.ByteArray { }
-class NME_assets_entrymap3_txt extends flash.utils.ByteArray { }
+class NME_assets_forest_tmx extends flash.utils.ByteArray { }
 class NME_assets_foresttiles_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class NME_assets_haxeflixel_svg extends flash.utils.ByteArray { }
+class NME_assets_invtile_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class NME_assets_mountain_landscape_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class NME_assets_player_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
-class NME_assets_testmap_csv extends flash.utils.ByteArray { }
-class NME_assets_testmap_txt extends flash.utils.ByteArray { }
-class NME_assets_tmxtoflixel_exe extends flash.utils.ByteArray { }
+class NME_assets_testingmap_tmx extends flash.utils.ByteArray { }
+class NME_assets_tilesets_bench_bmp extends flash.utils.ByteArray { }
+class NME_assets_tilesets_bench_gif extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class NME_assets_tilesets_cliffveg_bmp extends flash.utils.ByteArray { }
+class NME_assets_tilesets_clifshd_bmp extends flash.utils.ByteArray { }
+class NME_assets_tilesets_clifveg2_bmp extends flash.utils.ByteArray { }
+class NME_assets_tilesets_encint_gif extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class NME_assets_tilesets_fencdam_bmp extends flash.utils.ByteArray { }
+class NME_assets_tilesets_fence_bmp extends flash.utils.ByteArray { }
+class NME_assets_tilesets_fencshd1_bmp extends flash.utils.ByteArray { }
+class NME_assets_tilesets_fencshd2_bmp extends flash.utils.ByteArray { }
+class NME_assets_tilesets_grs2roc_bmp extends flash.utils.ByteArray { }
+class NME_assets_tilesets_inven3_tif extends flash.utils.ByteArray { }
+class NME_assets_tilesets_kitchen_gif extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class NME_assets_tilesets_pave_bmp extends flash.utils.ByteArray { }
+class NME_assets_tilesets_ruin_bmp extends flash.utils.ByteArray { }
+class NME_assets_tilesets_table1_gif extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class NME_assets_tilesets_test5b_bmp extends flash.utils.ByteArray { }
+class NME_assets_tilesets_test6_bmp extends flash.utils.ByteArray { }
+class NME_assets_tilesets_test7b_bmp extends flash.utils.ByteArray { }
+class NME_assets_tilesets_test7b_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class NME_assets_tilesets_townbot_bmp extends flash.utils.ByteArray { }
+class NME_assets_tilesets_townbot2_bmp extends flash.utils.ByteArray { }
+class NME_assets_tilesets_towndoor_bmp extends flash.utils.ByteArray { }
+class NME_assets_tilesets_townjnt_bmp extends flash.utils.ByteArray { }
+class NME_assets_tilesets_townjnt2_bmp extends flash.utils.ByteArray { }
+class NME_assets_tilesets_townshd1_bmp extends flash.utils.ByteArray { }
+class NME_assets_tilesets_towntop_bmp extends flash.utils.ByteArray { }
+class NME_assets_tilesets_townwin_bmp extends flash.utils.ByteArray { }
+class NME_assets_tilesets_tree_gif extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class NME_assets_tilesets_vildam_bmp extends flash.utils.ByteArray { }
+class NME_assets_tilesets_vilflr_bmp extends flash.utils.ByteArray { }
+class NME_assets_tilesets_vilint_bmp extends flash.utils.ByteArray { }
+class NME_assets_tilesets_vilshd_bmp extends flash.utils.ByteArray { }
+class NME_assets_tilesets__backup__bmp extends flash.utils.ByteArray { }

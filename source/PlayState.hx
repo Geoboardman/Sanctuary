@@ -34,6 +34,7 @@ class PlayState extends FlxState
 	private var TILE_HEIGHT:Int;
 	// Basic level structure
 	private var t:FlxTilemap;
+	private var trees:FlxTilemap;
 	
 	public function new()
 	{
@@ -46,15 +47,18 @@ class PlayState extends FlxState
 	override public function create():Void
 	{
 		// Create a TmxMap with a tmx file
-		var tmx : TmxMap = new TmxMap( Assets.getText('assets/EntryMap.tmx') );
+		var tmx : TmxMap = new TmxMap( Assets.getText('assets/Forest.tmx') );
 		 
 		t = new FlxTilemap();
-		
+		trees = new FlxTilemap();
 		// Generate a CSV from the layer 'map' with all the tiles from the TileSet 'tiles'
-		var mapCsv:String = tmx.getLayer('BaseLayer').toCsv( tmx.getTileSet('ForestTiles') );
-		 
-		t.loadMap(mapCsv, "assets/ForestTiles.png", 64, 64, FlxTilemap.OFF);
-		add(t);		
+		var mapCsv:String = tmx.getLayer('baselayer').toCsv( tmx.getTileSet('mountain_landscape') );
+		var treeLayer:String = tmx.getLayer('trees').toCsv( tmx.getTileSet('mountain_landscape') );
+		
+		t.loadMap(mapCsv, "assets/mountain_landscape.png", 32, 32, FlxTilemap.OFF);
+		trees.loadMap(treeLayer, "assets/mountain_landscape.png", 32, 32, FlxTilemap.OFF);
+		add(t);
+		add(trees);
 		
 		// Set a background color
 		FlxG.bgColor = 0xff131c1b;
@@ -65,9 +69,8 @@ class PlayState extends FlxState
 		add(new FlxText(0, 0, 100, "Welcome to Sanctuary!"));
 		player = new Player();
 		add(player);
-			
-		FlxG.camera.follow(player, FlxCamera.STYLE_TOPDOWN);
-		FlxG.worldBounds = t.getBounds();
+		FlxG.camera.follow(player.body, FlxCamera.STYLE_TOPDOWN);
+		//FlxG.worldBounds = t.getBounds();
 		
 		super.create();
 	}
@@ -78,6 +81,10 @@ class PlayState extends FlxState
 	 */
 	override public function destroy():Void
 	{
+		t.destroy();
+		t = null;
+		trees.destroy();
+		trees = null;
 		player.destroy();
 		player = null;
 		super.destroy();
@@ -88,7 +95,7 @@ class PlayState extends FlxState
 	 */
 	override public function update():Void
 	{
-		//FlxG.collide(player, collisionMap);
+		FlxG.collide(player, trees);
 		player.update();
 		super.update();
 	}	
